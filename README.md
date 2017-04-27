@@ -30,7 +30,7 @@ Remember to clone (or rename) `binja-fyb` to `fyb` otherwise it will not work.
 ```python
 @typify(Function)
 def print_calls(funk):
-    # funk is a the retrieved function
+    # funk is the retrieved function
     print(funk.name)
 
     @typify(LowLevelILInstruction)
@@ -64,6 +64,6 @@ Note that `fyb.print_calls` was not modified at all.
 * Performance overhead is likely to be overkill in real scenarios,
   though it can be slightly improved by pruning the traversal
   (e.g.: there's no need to iterate over `LowLevelILOperation`s if we are searching for `Function`s)
-* Binja API's typing is too coarse
+* Binja API types are somewhat coarse
   (e.g.: flags like `LowLevelILOperation.LLIL_CALL` instead of a proper subclass of `LowLevelILOperation`)
   * I can hack around some of this stuff by using optional node filters
