@@ -25,7 +25,7 @@ Once again, this project is just a toy experiment of mine.
 
 The following is a small snippet of code to print all the `call` instructions in a `BinaryView`,
 grouped by function name.
-Remember to clone (or rename) `binja-fyb` to `fyb` otherwise it will not work.
+**Remember to clone (or rename) `binja-fyb/` to `fyb/` otherwise it will not work.**
 
 ```python
 @typify(Function)
