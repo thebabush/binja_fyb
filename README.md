@@ -50,7 +50,7 @@ In order to execute the snippet, type the following in Binja's console:
 import fyb; fyb.print_calls(bv)
 ```
 
-If we just want to print the calls in the current function, we just need to change
+If we just want to print the calls in the current function, we only need to change
 the object we pass to `fyb.print_calls`:
 
 ```python
