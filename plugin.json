@@ -1,0 +1,25 @@
+{
+  "plugin": {
+    "name": "Binja FYB",
+    "type": ["core", "binaryview"],
+    "api": "python2",
+    "description": "Binja experiments",
+    "longdescription": "Binja experiments",
+    "license": {
+      "name": "MIT",
+      "text": "https://raw.githubusercontent.com/kenoph/binja-fyb/master/LICENSE"
+    },
+    "dependencies": {
+      "pip": [],
+      "apt": [],
+      "installers": [],
+      "other": []
+    },
+    "version": "0.1 alpha",
+    "author": "Paolo Montesel (github.com/kenoph)",
+    "minimumBinaryNinjaVersion": {
+      "dev": "1.0.dev-576",
+      "release": "9999"
+    }
+  }
+}
