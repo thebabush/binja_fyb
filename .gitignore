@@ -89,3 +89,4 @@ ENV/
 .ropeproject
 *.iml
 test.py
+.idea/
